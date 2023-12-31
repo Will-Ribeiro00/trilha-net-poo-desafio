@@ -6,6 +6,8 @@ Além do que era necessário para comprir o projeto com exito, eu me dei a liber
 
 - Fora as classes solicitadas, me dei ao trabalho de fazer a implementação de mais 2 class, sendo a Class Motorola e a Class Samsung, ambas também sendo herdadas da Class Smartphone e recebendo os mesmos parâmetros.
 
+- Foi criado uma Função/Metodo Abstrato DesinstalarAplicativo(); dentro da Class Smartphone e sendo herdado para implementação obrigatória nas suas classes filhas. Foi criado esse método pensando na lógica de que se é possível instalar um aplicativo, também deveria ser possível desinstalar !
+
 - Criei uma propriedade pública Chip, sendo instânciada na Class Abstract Smartphone e passando para as suas classes filhas. A propriedade recebeu os parametros {Get; Set;}, pois assim como o número, um chip também pode ser trocado por outro pelo seu usuário.
 
 ## Desafio de projeto
