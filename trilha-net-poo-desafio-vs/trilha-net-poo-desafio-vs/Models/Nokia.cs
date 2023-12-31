@@ -11,6 +11,10 @@
         {
             Console.WriteLine($"Instalando o aplicativo \"{nomeApp}\" no Nokia");
         }
+        public override void DesinstalarAplicativo(string nomeApp)
+        {
+            Console.WriteLine($"Desinstalando o aplicativo \"{nomeApp}\" no Nokia");
+        }
     }
 
     // TODO: Sobrescrever o método "InstalarAplicativo"

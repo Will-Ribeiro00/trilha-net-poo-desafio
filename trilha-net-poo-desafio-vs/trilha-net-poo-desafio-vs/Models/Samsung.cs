@@ -8,5 +8,9 @@
         {
             Console.WriteLine($"Instalando o aplicativo \"{nomeApp}\" no Samsung");
         }
+        public override void DesinstalarAplicativo(string nomeApp)
+        {
+            Console.WriteLine($"Desinstalando o aplicativo \"{nomeApp}\" no Samsung");
+        }
     }
 }

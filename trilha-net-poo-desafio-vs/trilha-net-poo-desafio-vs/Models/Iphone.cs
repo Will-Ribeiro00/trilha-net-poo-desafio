@@ -9,5 +9,9 @@
         {
             Console.WriteLine($"Instalando o aplicativo \"{nomeApp}\" no iPhone");
         }
+        public override void DesinstalarAplicativo(string nomeApp)
+        {
+            Console.WriteLine($"Desinstalando o aplicativo \"{nomeApp}\" no iPhone");
+        }
     }
 }

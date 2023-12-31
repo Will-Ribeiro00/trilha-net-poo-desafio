@@ -7,5 +7,9 @@
         {
             Console.WriteLine($"Istalando o aplicativo \"{nomeApp}\" no Motorola");
         }
+        public override void DesinstalarAplicativo(string nomeApp)
+        {
+            Console.WriteLine($"Desinstalando o aplicativo \"{nomeApp}\" no Motorola");
+        }
     }
 }
